@@ -1,0 +1,28 @@
+{
+    "version": "0.0.0",
+    "description": "A tool for analyzing .NET assembly sizes.",
+    "homepage": "https://github.com/lucaspimentel/assembly-size-analyzer",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/lucaspimentel/assembly-size-analyzer/releases/download/v0.0.0/assembly-size-analyzer-win-x64.zip",
+            "hash": ""
+        }
+    },
+    "bin": "assembly-size-analyzer.exe",
+    "checkver": {
+        "url": "https://api.github.com/repos/lucaspimentel/assembly-size-analyzer/releases",
+        "jsonpath": "$[0].tag_name",
+        "regex": "v([\\d.]+-?[\\w.]*)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/lucaspimentel/assembly-size-analyzer/releases/download/v$version/assembly-size-analyzer-win-x64.zip"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/checksums.txt"
+        }
+    }
+}

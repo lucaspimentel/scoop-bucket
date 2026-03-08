@@ -1,0 +1,28 @@
+{
+    "version": "0.0.0",
+    "description": "A wrapper for lazygit that enables custom pager support.",
+    "homepage": "https://github.com/lucaspimentel/lazygit-custom-pager-wrapper",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/lucaspimentel/lazygit-custom-pager-wrapper/releases/download/v0.0.0/lazygit-custom-pager-wrapper-win-x64.zip",
+            "hash": ""
+        }
+    },
+    "bin": "lazygit-custom-pager-wrapper.exe",
+    "checkver": {
+        "url": "https://api.github.com/repos/lucaspimentel/lazygit-custom-pager-wrapper/releases",
+        "jsonpath": "$[0].tag_name",
+        "regex": "v([\\d.]+-?[\\w.]*)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/lucaspimentel/lazygit-custom-pager-wrapper/releases/download/v$version/lazygit-custom-pager-wrapper-win-x64.zip"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/checksums.txt"
+        }
+    }
+}

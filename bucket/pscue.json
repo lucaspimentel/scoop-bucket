@@ -1,0 +1,30 @@
+{
+    "version": "0.11.0-beta",
+    "description": "A PowerShell module for managing terminal color themes with live preview.",
+    "homepage": "https://github.com/lucaspimentel/PSCue",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/lucaspimentel/PSCue/releases/download/v0.11.0-beta/PSCue-win-x64.zip",
+            "hash": "FD528A1F279950D952A804C7223F72B9540011B425B456B9EC9FFA91404992D9"
+        }
+    },
+    "psmodule": {
+        "name": "PSCue"
+    },
+    "checkver": {
+        "url": "https://api.github.com/repos/lucaspimentel/PSCue/releases",
+        "jsonpath": "$[0].tag_name",
+        "regex": "v([\\d.]+-?[\\w.]*)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/lucaspimentel/PSCue/releases/download/v$version/PSCue-win-x64.zip"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/checksums.txt"
+        }
+    }
+}
