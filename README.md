@@ -18,8 +18,7 @@ scoop bucket add lucaspimentel https://github.com/lucaspimentel/scoop-bucket
 | [pwsh-prompt](https://github.com/lucaspimentel/pwsh-prompt) | A fast, minimal shell prompt for PowerShell. |
 | [cslint](https://github.com/lucaspimentel/cslint) | A C# linting tool. |
 | [wade](https://github.com/lucaspimentel/wade) | A CLI tool for searching and navigating directories. |
-| [assembly-size-analyzer](https://github.com/lucaspimentel/assembly-size-analyzer) | A tool for analyzing .NET assembly sizes. |
-| [lazygit-custom-pager-wrapper](https://github.com/lucaspimentel/lazygit-custom-pager-wrapper) | A wrapper for lazygit that enables custom pager support. |
+| [analyze-assembly-size](https://github.com/lucaspimentel/analyze-assembly-size) | A tool for analyzing .NET assembly sizes. |
 
 ## Install
 
