@@ -1,12 +1,12 @@
 {
-    "version": "1.0.0-beta.2",
+    "version": "1.0.0-beta.6",
     "description": "A C# linting tool.",
     "homepage": "https://github.com/lucaspimentel/cslint",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/lucaspimentel/cslint/releases/download/v1.0.0-beta.2/cslint-win-x64.zip",
-            "hash": "631E10E5FC7F27169A7FFB6F8DC7C48401928B646BCCBE545F309C84F0CBDCD2"
+            "url": "https://github.com/lucaspimentel/cslint/releases/download/v1.0.0-beta.6/cslint-win-x64.zip",
+            "hash": "8f10b86ceb8357119ae36a8d4aa857ebe0b2f39384a0dde6303e58ec23ca3576"
         }
     },
     "bin": "cslint.exe",
