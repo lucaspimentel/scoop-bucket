@@ -1,12 +1,12 @@
 {
-    "version": "1.0.0-beta.3",
+    "version": "1.0.0-beta.4",
     "description": "A CLI tool for searching and navigating directories.",
     "homepage": "https://github.com/lucaspimentel/wade",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/lucaspimentel/wade/releases/download/v1.0.0-beta.3/wade-win-x64.zip",
-            "hash": "812111d170f3e0ade58e5e684427ea87e68fd422d553ce11f9f648e1c8c6283d"
+            "url": "https://github.com/lucaspimentel/wade/releases/download/v1.0.0-beta.4/wade-win-x64.zip",
+            "hash": "18daabb2dad7c23402ae029ecf8cad7decf700d669cf31aaf171f9098b978908"
         }
     },
     "bin": "wade.exe",
