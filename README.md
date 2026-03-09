@@ -14,11 +14,13 @@ scoop bucket add lucaspimentel https://github.com/lucaspimentel/scoop-bucket
 
 | App | Description |
 |-----|-------------|
-| [pscue](https://github.com/lucaspimentel/PSCue) | A PowerShell module for [TODO]. |
+| [pscue](https://github.com/lucaspimentel/PSCue) | A PowerShell module that provides intelligent command-line completion and prediction. |
 | [pwsh-prompt](https://github.com/lucaspimentel/pwsh-prompt) | A fast, minimal shell prompt for PowerShell, written in C#. |
-| [cslint](https://github.com/lucaspimentel/cslint) | A C# linting tool that respects `.editorconfig`. |
-| [wade](https://github.com/lucaspimentel/wade) | Another TUI file manager, written in C#. |
-| [analyze-assembly-size](https://github.com/lucaspimentel/analyze-assembly-size) | Analyze the size of .NET assemblies. |
+| [cslint](https://github.com/lucaspimentel/cslint) | A fast C# linter that respects `.editorconfig`. |
+| [wade](https://github.com/lucaspimentel/wade) | A terminal file browser with Miller columns, written in C#. |
+| [analyze-assembly-size](https://github.com/lucaspimentel/analyze-assembly-size) | A command-line tool that analyzes the size of .NET assemblies, grouped by namespace. |
+
+Pre-built binaries support Windows and Linux. macOS is supported when built from source.
 
 ## Install
 
