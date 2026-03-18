@@ -1,0 +1,28 @@
+{
+    "version": "0.33.0",
+    "description": "A CLI companion with 200+ commands across 33+ Datadog products.",
+    "homepage": "https://github.com/datadog-labs/pup",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/datadog-labs/pup/releases/download/v0.33.0/pup_0.33.0_Windows_x86_64.zip",
+            "hash": "460b40ba948d29d8d91031cf666901e37f28eab28fc7ab68bc16279351e89344"
+        }
+    },
+    "bin": "pup.exe",
+    "checkver": {
+        "url": "https://api.github.com/repos/datadog-labs/pup/releases",
+        "jsonpath": "$[0].tag_name",
+        "regex": "v([\\d.]+-?[\\w.]*)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/datadog-labs/pup/releases/download/v$version/pup_$version_Windows_x86_64.zip"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/pup_$version_checksums.txt"
+        }
+    }
+}
