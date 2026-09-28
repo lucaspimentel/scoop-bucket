@@ -1,12 +1,12 @@
 {
-    "version": "0.7.0",
+    "version": "0.8.0",
     "description": "A fast, minimal shell prompt for PowerShell.",
     "homepage": "https://github.com/lucaspimentel/pwsh-prompt",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/lucaspimentel/pwsh-prompt/releases/download/v0.7.0/pwsh-prompt-win-x64.zip",
-            "hash": "dcc252e33fc312aa38eed4cc44d1ffc34bf4bd25fce2ca7bce34eb48c54d2020"
+            "url": "https://github.com/lucaspimentel/pwsh-prompt/releases/download/v0.8.0/pwsh-prompt-win-x64.zip",
+            "hash": "fe5535c9df4ecaa0f87920847cdc5bb2ef19623204e4af01039ba41bdedaf6f5"
         }
     },
     "bin": "pwsh-prompt.exe",
